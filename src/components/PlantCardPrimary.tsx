@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
     margin: 10
   },
   text: {
+    fontSize: 11.5,
     color: colors.green_dark,
     fontFamily: fonts.heading,
     marginVertical: 16
