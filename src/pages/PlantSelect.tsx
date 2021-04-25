@@ -79,7 +79,6 @@ export function PlantSelect() {
   }
 
   function handlePlantSelect(plant: PlantProps) {
-    console.log(plant);
     navigation.navigate('PlantSave', { plant });
   }
 
@@ -104,6 +103,7 @@ export function PlantSelect() {
 
   if(loading)
     return <Load />
+    
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
